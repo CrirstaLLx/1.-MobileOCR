@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>СЕЙЧАС Я СУКА ТЕБЯ РАСПОЗНАЮ</title>
+        <link href="{% static 'css/form.css' %}" rel="stylesheet" type="text/css">
+        <script src="{% static 'js/form.js' %}"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+    <body >
+        <div class="container">
+            <div class="form-container">
+                <p style="color: red;">{{message}}</p>
+                <h1>
+                    СЕЙЧАС Я СУКА ТЕБЯ РАСПОЗНАЮ
+                </h1>
+                <form method="POST" enctype=multipart/form-data>
+                    {% csrf_token %}
+                    <label> ГОВОРИ СВОЙ АДРЕС СУКА:</label>
+                    <input type="file" class="form-control" id="image" name="image" />
+                    <button class="button-primary" type="submit" >САСАТЬ</button>
+                </form>
+                <label><h2>ТЕБЕ ПИЗДА БЛЯТЬ:</h2></label>
+                <span class="textarea" role="textbox" contenteditable>{{text}}</span>
+            </div>
+        </div>
+    </body>
+
+
+</html>

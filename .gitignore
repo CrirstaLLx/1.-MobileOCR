@@ -1,0 +1,33 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Django/Python backend
+*.pyc
+*.pyo
+__pycache__/
+backend_ocr/venv/
+backend_ocr/.idea/
+backend_ocr/backend/media/
+backend_ocr/backend/db.sqlite3   
+
+# React Native frontend 
+live-text/node_modules/
+live-text/.expo/
+live-text/.expo-shared/
+live-text/dist/
+live-text/web-build/
+*.log
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+live-text/android/
+live-text/ios/
+debugger-ui/
+.packager
+.flowconfig
+yarn.lock  

@@ -1,0 +1,27 @@
+{
+    "translation": {
+        "onboardingStitle": "Добро пожаловать", 
+        "onboardingStitle_2": "в Live Text!", 
+        "onboardingSdescription": "Не упускайте важную информацию: наведите камеру вашего телефона с текстом и программа автоматически выдаст обработанный текст.", 
+        "onboardingSattention": "Разрешите доступ к камере, чтобы воспользоваться функционалом программы.", 
+        "onboardingSbuttonStart": "Начать !",
+
+        "cameraStitle": "Элементы управления", 
+        "cameraScamTitle": "Камера телефона", 
+        "cameraSlibraryTitle": "Медиатека", 
+        "cameraShistoryTitle": "История распознаваний",
+        "cameraSetlanguage": "Язык интерфейса",
+        
+        "historySbuttonBack": "Вернуться", 
+        "historyStitleHistory": "История",
+
+        "historyEbuttonBack": "История",
+
+        "historyMcopyButton": "Копировать", 
+        "historyMdelButton": "Удалить", 
+        "historyMshareButton": "Поделиться", 
+        "historyMfindButton": "Найти",
+
+        "resultRecongnize": "Результат"
+    }
+}

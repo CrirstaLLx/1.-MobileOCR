@@ -1,0 +1,27 @@
+{
+    "translation": {
+        "onboardingStitle": "Welcome to", 
+        "onboardingStitle_2": "the Live Text!", 
+        "onboardingSdescription": "Don't leave out important information: point your phone's camera at the surface with the text and the software automatically outputs the processed text.", 
+        "onboardingSattention": "Allow access to the camera to take advantage of the programme's functions.", 
+        "onboardingSbuttonStart": "Let's Start !",
+
+        "cameraStitle": "Control elements", 
+        "cameraScamTitle": "Camera", 
+        "cameraSlibraryTitle": "Media Library", 
+        "cameraShistoryTitle": "History",
+        "cameraSetlanguage": "App language",
+        
+        "historySbuttonBack": "Go Back", 
+        "historyStitleHistory": "History",
+
+        "historyEbuttonBack": "History",
+
+        "historyMcopyButton": "Copy", 
+        "historyMdelButton": "Delete", 
+        "historyMshareButton": "Share", 
+        "historyMfindButton": "Find",
+
+        "resultRecongnize": "Result"
+    }
+}
